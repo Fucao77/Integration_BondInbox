@@ -1,0 +1,35 @@
+.how_it_works{
+    width: 100%;
+    background-image: url('../sass/img/workwomen.png');
+    background-size: cover;
+
+    .align{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: 150px;
+    }
+
+    .align_reverse{
+        display: flex;
+        flex-flow: row-reverse wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: 100px 0;
+    }
+}
+
+.works_bloc_txt{
+    width: 400px;
+
+    h4{
+        color: #0047BE;
+        font-weight: bold;
+        font-size: 26px;
+    }
+
+    .arrow_txt{
+        color: #8E9AE0;
+    }
+}
